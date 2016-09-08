@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace pruebasSWRevisones
+namespace PruebasSWRevisones //Primer defecto arreglado
 {
     class Program
     {
@@ -12,7 +12,7 @@ namespace pruebasSWRevisones
         {
             int num1 = 2; int num2 = -1;
             if(num1 > 0 && (num2 > 0)){ //Valida que ambos números sean positivos
-                Console.WriteLine("Ambos números son positivos")
+                Console.WriteLine("Ambos números son positivos"); // segundo defecto arreglado
             } else
             {
                 Console.WriteLine("Al menos un número es negativo");
